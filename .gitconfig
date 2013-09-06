@@ -14,3 +14,5 @@
 
 [github]
 	user = nakaearth
+[push]
+	default = simple
