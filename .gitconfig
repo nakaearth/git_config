@@ -1,0 +1,16 @@
+[user]
+	name = nakamura shinichirou
+  email = naka5313@gmail.com
+[core]
+  editor=vim
+[alias]
+	tree = log --graph --all --format=\"%x09%C(green bold)%an%Creset%x09%C(yellow)%h%Creset %C(magenta reverse)%d%Creset %s\"
+  df = diff
+  dc = diff --cached
+  dw = diff -w
+  dn = diff --name-only
+  dwd = diff --word-diff
+  diffr = diff --color-words --word-diff-regex='\\w+|[^[:space:]]' 
+
+[github]
+	user = nakaearth
